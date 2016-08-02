@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS初始化*/
+body,div,img,a,ul,li,h3,h4,h5,dd,dt,dd,p{ margin:0; padding:0;}
+a{ text-decoration:none;}
+ul{ list-style:none}
+img{ border:0 none; vertical-align:top;}
+.clearFix{*zoom:1;}
+.clearFix:after{ height:0; clear:both; visibility:hidden; content:"."; display:block;}
+body{ font-size:12px ; font-family:宋体; color:#000;}
+
+/*导航栏*/
+#nav{ width:1003px; margin:0 auto; border-top:4px solid #7f7f7f; height:auto;}
+.logo{ float:left; width:213px; height:71px; border-right:#c4c4c4 1px solid; padding:13px 0 0 17px; }
+.nav-map{ float:left; width:771px; height:40px;}
+.nav-map .map{ margin:15px 0 0 616px;}
+.nav-map .map li{ float:left; height:13px; }
+.nav-map .map li a{ display:block; font-size:13px; color:#a3a2a2;padding:0 11px 0 11px;; width:54px; height:13px;}
+.nav-map .map li .borderright{border-right:#a3a2a2 solid 1px;}
+
+.nav-daohang{ float:left; width:771px; height:40px; background: url(../images/nav-bg.png) repeat-x;}
+.nav-daohang li{ float:left; background:url(../images/border.png) right top no-repeat;}
+.nav-daohang a{ display:block; font-size:13px; padding:0 23px 0 23px; color:#4d4c4c; height:40px; line-height:40px;}
+.nav-daohang a:hover{ color:#C00;}
+.flash{ width:1003px; height:316px; margin:0 auto 1px; padding-left:1px; }
+
+.transition{ width:1003px; height:26px; margin:0 auto; background:url(../images/transition.png);}
+
+#contain{ width:1003px; margin:0 auto;}
+.left{ width:188px; float:left;}
+.left h3{ color:#1952c6; font-size:13px; font-family:微软雅黑; line-height:30px; background:url(../images/icon.png) 1px top; padding-left:27px; height:30px; margin-bottom:13px;}
+.left h3 span{ font-size:12px; color:#9a9a9a; margin-left:17px;}
+.left .buttom li{ width:186px; height:24px; border:#ccc9c9 1px solid; background:url(../images/lanmu-bg.png); margin-bottom:3px;}
+.left .buttom i{ display:block; float:left; margin:6px 48px 0 9px; background:url(../images/icon.png) 0 -93px; width:7px; height:11px;}
+.left .buttom a{ display:block; float:left; font-size:12px; color:#000; line-height:24px; font-family:宋体;}
+.left .contact-img{ display:block; width:188px; height:74px; margin:1px 0 10px 0 ;}
+.message{ padding-left:1px; padding-right:7px;}
+.message li{ font-size:12px; font-family:宋体; line-height:26px; }
+
+.middle{ width:556px; margin-left:37px; float:left;}
+.middle h3{ color:#1952c6; font-size:13px; font-family:微软雅黑; line-height:30px; background:url(../images/icon.png) 1px -30px; padding-left:27px; height:30px; margin-bottom:13px; margin-bottom:16px;}
+.middle h3 span{ font-size:12px; color:#9a9a9a; margin-left:17px;} 
+.middle h3 a{ display:block; float:right; font-size:13px; color:#000; line-height:30px;}
+.top img{ display:block; float:left; width:149px;}
+.top p{ line-height:22px; float:left; width:406px;}
+.bottom{ overflow:hidden;}
+.bottom ul{ width:110%;}
+.bottom li{ float:left; width:127px; margin:3px 8px 0 14px;}
+.bottom img{ display:block; border:#d3d3d3 1px solid;}
+.bottom img:hover{ display:block; border:#C00 1px solid;}
+.bottom a{ display:block;}
+.bottom a span{ display:block; line-height:22px; height:22px; color:#000;}
+.bottom a:hover span{ color:#C00;}
+
+.right{ float:left; width:199px; margin-left:23px;}
+.right h3{ color:#1952c6; font-size:13px; font-family:微软雅黑; line-height:30px; background:url(../images/icon.png) 0 -60px; padding-left:27px; height:30px; margin-bottom:13px; margin-bottom:16px;}
+.right h3 span{ font-size:12px; color:#9a9a9a; margin-left:17px;} 
+.right h3 a{ display:block; float:right; font-size:13px; color:#000; line-height:30px;}
+.right li a{ display:block; color:#777676; line-height:24px; height:24px;}
+
+.right .picture{ display:block; height:198px; width:198px; margin-bottom:15px;}
+.right a strong{float:left; display:block; margin:0 2px 0 5px; width:10px; height:20px; overflow:hidden;}
+.right a strong i{ display:block; margin-left:-8px; font-style:normal;}
+
+.profile{ float:left; width:778px;  margin-left:37px;}
+.profile h4{ height:29px;  background:url(../images/company-titbg.png); font-weight:300; padding-top:2px;}
+.profile strong{ width:10px; height:20px; display:block; overflow:hidden; margin-left:19px; float:left;}
+.profile i{ font-style:normal;color:#ea3724; display:block;width:10px; height:20px; margin-left:-8px;}
+.profile h4 span{ display:block; float:left;}
+.profile h3{ color:#5e5a5a; font-size:14px; text-align:center; height:22px; line-height:22px; margin-top:28px;}
+.profile h5{ color:#5e5a5a; font-size:12px; line-height:22px; height:22px; text-align:center; margin:3px 0 14px 0;}
+.profile p{ color:#5e5a5a; line-height:20px; margin:0 36px 13px 23px;}
+.profile .page{ text-align:center;}
+.profile .page a{ display:inline-block; width:31px; height:20px; border:#b6b5b5 1px solid; text-align:center; line-height:20px; color:#000;}
+.profile .page a:hover{ background-color:#ea3724; color:#FFF;}
+.profile .page .noborder{ border:0 none;}
+
+.industrynews{ padding:9px 0 0 20px; margin-bottom:20px;}
+.industrynews dl{ width:715px; border-bottom:#9e9c9c 1px dashed; height:39px;}
+.industrynews dt{ float:left;}
+.industrynews dt a{ display:block; color:#191919; line-height:40px;}
+.industrynews dt a:hover{color:#C00;}
+.industrynews dd{ float:right;}
+.industrynews dd a{ display:block; line-height:40px; color:#8e8d8d;}
+
+.product{ padding:14px 0 0 22px; overflow:hidden;}
+.product ul{ width:110%;}
+.product li{ float:left; width:346px; margin-right:38px; margin-bottom:18px; border-bottom:1px #ebebeb dashed; padding-bottom:16px; }
+.product li a{ display:block;}
+.product li a img{ width:125px; height:125px; border:#d4d2d3 1px solid; display:block; float:left; margin-right:20px; }
+.product li h5{ float:left; font-size:18px; color:#323232; font-family:微软雅黑; line-height:22px; height:22px;}
+.product li p{ font-size:13px; font-family:微软雅黑; color:#323232; width:192px; padding:0 4px 0 2px; line-height:22px; float:left; margin:0;}
+
+
+.contactus{ padding:3px 0 0 23px;}
+.contactus h3{ font-size:14px; color:#000; line-height:40px; height:40px; margin:0; text-align:left; }
+.contactus b{ display:block; width:543px; height:255px; border:1px #e1dddd solid; margin-bottom:11px;}
+.contactus b img{ margin:5px 0 0 5px;}
+.contactus li{ line-height:26px; }
+
+
+#footer{ width:1003px; margin:0 auto; border-top:#e2e1e1 7px solid; margin-top:35px; padding-top:13px;}
+#footer p{ text-align:center; font-size:12px; color:#a4a2a2; line-height:22px;}
